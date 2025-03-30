@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Frontend Mentor</title>
+    <script
+      src="https://kit.fontawesome.com/700cb49695.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- <link rel="stylesheet" href="./src/stylesheet/output.css" /> -->
+
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="./src/stylesheet/build.css">
+  </head>
+
+  <body class="bg-gray-50 h-auto">
+    <!-- nav starts here -->
+    <nav class="flex justify-between p-5 items-center spm-txt h-20">
+      <a href="index.html" class=""
+        ><img
+          src="./images/logo-desktop.svg"
+          alt="Logo"
+          class="h-8 lg:block hidden" />
+        <img src="./images/logo-mobile.svg" alt="Logo" class="h-8 lg:hidden"
+      /></a>
+      <div class="right-part p-4 relative lg:static flex items-center gap-2">
+        <ul
+          id="nav-list"
+          class="lg:flex whitespace-nowrap gap-3 items-center sm:flex-col bg-white sm:w-80 sm:h-70 sm:top-2.5 text-xl sm:right-1 justify-center lg:w-auto lg:h-auto lg:bg-transparent transition-all duration-300 lg:flex-row absolute lg:static hidden lg:opacity-100 tracking-tight sm:items-center w-60 h-auto p-3 flex-col rounded-xl shadow top-2 right-2 lg:shadow-none"
+        >
+          <li
+            class="font-semibold italic relative after:absolute after:bg-red-500 after:w-0 after:h-[2px] after:left-1/2 after:bottom-0 py-1 hover:after:-translate-1/2 cursor-pointer hover:after:w-full after:transition-all after:duration-200"
+            href="learningpath.html"
+          >
+            <a href="learningpath.html">Learning Path</a>
+          </li>
+          <li
+            class="font-semibold italic relative after:absolute after:bg-red-500 after:w-0 after:h-[2px] after:left-1/2 after:bottom-0 py-1 hover:after:-translate-1/2 cursor-pointer hover:after:w-full after:transition-all after:duration-200"
+            href="challenges.html"
+          >
+            Challenges
+          </li>
+          <li
+            class="font-semibold italic relative after:absolute after:bg-red-500 after:w-0 after:h-[2px] after:left-1/2 after:bottom-0 py-1 hover:after:-translate-1/2 cursor-pointer hover:after:w-full after:transition-all after:duration-200"
+          >
+            Solutions
+          </li>
+          <li
+            class="font-semibold italic relative after:absolute after:bg-red-500 after:w-0 after:h-[2px] after:left-1/2 after:bottom-0 py-1 hover:after:-translate-1/2 cursor-pointer hover:after:w-full after:transition-all after:duration-200"
+          >
+            Article
+          </li>
+          <li
+            class="font-semibold italic relative after:absolute after:bg-red-500 after:w-0 after:h-[2px] after:left-1/2 after:bottom-0 py-1 hover:after:-translate-1/2 cursor-pointer hover:after:w-full after:transition-all after:duration-200"
+          >
+            Unlock PRO
+          </li>
+        </ul>
+        <button
+          class="font-semibold bg-black h-10 text-white p-3 rounded-3xl gap-2 items-center cursor-pointer text-md md:flex hover:bg-purple-600 transition-all duration-200 whitespace-nowrap m-0 hidden"
+        >
+          LOG IN with GITHUB <i class="fa-brands fa-github text-2xl"></i>
+        </button>
+        <div class="lg:hidden block text-3xl ml-3">
+          <div id="bars" class="cursor-pointer opacity-100 scale-100">
+            <i class="fa-solid fa-bars"></i>
+          </div>
+          <div id="xmark" class="hidden opacity-0 scale-0 cursor-pointer">
+            <i class="fa-solid fa-xmark"></i>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- nav ends hers -->
+    <!-- header section starts here -->
+    <header class="">
+      <!-- first hero section starts here -->
+      <div
+        class="first-hero flex gap-5 bg-gray-50 w-[90%] h-auto mx-auto flex-col p-3 sm:p-10 lg:flex-row"
+      >
+        <div class="left-part flex gap-6 flex-col lg:w-1/2 w-full">
+          <h2
+            class="fpm-txt capitalize font-semibold font-sans sm:text-6xl text-4xl"
+          >
+            improve your coding skills by building realistic projects
+          </h2>
+          <div class="sd-txt sm:text-2xl italic text-xl">
+            Our professionally designed challenges help you gain hends-on
+            experience writing
+            <span class="text-red-700 uppercase not-italic font-bold"
+              >html, css,</span
+            >
+            and
+            <span class="text-red-700 not-italic font-bold">JavaScript.</span>
+            We create the designs so you can focus on the code to see youre
+            skills skyrocket!
+          </div>
+          <button
+            class="sm:self-start sm:text-2xl bg-red-500 flex items-center justify-center h-15 w-75 rounded-4xl text-white font-semibold text-xl self-center cursor-pointer hover:bg-purple-600 transition-all duration-200 ease-in-out"
+          >
+            <p class="uppercase">
+              login with github <i class="fa-brands fa-github"></i>
+            </p>
+          </button>
+          <div
+            class="banner w-full bg-white shadow rounded-md self-center items-center justify-center gap-5 h-auto flex flex-col sm:flex-row p-3 lg:w-full"
+          >
+            <img
+              src="./images/home-community-avatars.webp "
+              class="object-contain w-[60%] sm:w-[40%]"
+              alt=""
+            />
+            <p class="sm:w-[60%] sm:text-xl text-center font-mono">
+              Join <span class="font-bold fpm-txt">9,91,871</span> developers
+              building projects, reviewing code, and helping each other improve.
+            </p>
+          </div>
+        </div>
+        <!-- left-section ends here -->
+        <div
+          class="relative overflow-hidden lg:overflow-visible right-part lg:w-1/2 w-full"
+        >
+          <img
+            src="./images/home-hero.webp"
+            alt=""
+            class="static lg:absolute lg:right-[-20%] lg:top-0 h-full object-cover object-left "
+          />
+        </div>
+      </div>
+      <!--first hero section ends here -->
+      <!-- second hero section ends here -->
+      <div
+        class="second_hero w-[90%] mx-auto h-auto pb-20   justify-arround sm:mt-20 gap-10 items-center justify-around flex flex-wrap"
+      >
+        <!-- 1st part --> 
+        <div
+          class="first-part flex h-auto flex-col justify-between rounded-2xl shadow items-center lg:w-[47%] sm:w-[90%] gap-5 p-7"
+        >
+          <p class="quotes sm:scale-[5] scale-[3] text-gray-400">&#10077;</p>
+          <div class="">
+            <p class="sd-txt text-center text-xl font-mono mb-2">
+              The function of good software is to make the complex appear to be 
+              simple.
+            </p>
+            <p class="sd-txt text-center text-xl font-mono">
+              Programs must be written for people to read, and only incidentally
+              for machines to execute.
+            </p>
+          </div>
+          <img
+            src="./images/spyro.png"
+            class="w-24 rounded-full"
+            alt="Profile"
+          />
+          <div class="text-center">
+            <h2 class="fpm-txt text-2xl font-semibold capitalize font-mono">
+              spyro kalita
+            </h2>
+            <p class="sd-txt capitalize">Web developer & Python Developer</p>
+          </div>
+        </div>
+        <!-- ends -->
+        <!-- 2nd part -->
+        <div
+          class="second-part flex h-auto flex-col justify-between rounded-2xl shadow items-center lg:w-[47%] sm:w-[90%] gap-5 p-7"
+        >
+          <p class="quotes sm:scale-[5] scale-[3] text-gray-400">&#10077;</p>
+          <div class="">
+            <p class="sd-txt text-center text-xl font-mono mb-2">
+              Code is like humor. When you have to explain it, it’s bad.
+            </p>
+            <p class="sd-txt text-center text-xl font-mono">
+              First, solve the problem. Then, write the code.
+            </p>
+          </div>
+          <img
+            src="./images/frenzy.png"
+            class="w-24 rounded-full"
+            alt="Profile"
+          />
+          <div class="text-center">
+            <h2 class="fpm-txt text-2xl font-semibold capitalize font-mono">
+              frenzy bayan
+            </h2>
+            <p class="sd-txt capitalize">ML & Python Developer</p>
+          </div>
+        </div>
+        <!-- ends -->
+        <!-- 3rd part -->
+        <div
+          class="third-part flex h-auto flex-col justify-between rounded-2xl shadow items-center lg:w-[47%] sm:w-[90%] gap-5 p-7"
+        >
+          <p class="quotes sm:scale-[5] scale-[3] text-gray-400">&#10077;</p>
+          <div class="">
+            <p class="sd-txt text-center text-xl font-mono mb-2">
+              Batoon me chalaki ho to dil me jagah khud ban jati hai.
+            </p>
+            <p class="sd-txt text-center text-xl font-mono">
+              Bewafai meri fitrat nahi, par koi jyada seedha bane to use sabak sikhane ka chance nahi chorti.
+            </p>
+          </div>
+          <img
+            src="./images/jenny.jpg"
+            class="w-24 rounded-full"
+            alt="Profile"
+          />
+          <div class="text-center">
+            <h2 class="fpm-txt text-2xl font-semibold capitalize font-mono">
+              jenny lafleur
+            </h2>
+            <p class="sd-txt capitalize">master diploma in sweet talk</p>
+          </div>
+        </div>
+        <!-- 3rd part ends here -->
+        <!-- 4th part -->
+        <div
+          class="first-part flex h-auto flex-col justify-between rounded-2xl shadow items-center lg:w-[47%] sm:w-[90%] gap-5 p-7"
+        >
+          <p class="quotes sm:scale-[5] scale-[3] text-gray-400">&#10077;</p>
+          <div class="">
+            <p class="sd-txt text-center text-xl font-mono mb-2">
+            Hum mohabbat bhi chalaki se karte hai jise chahe apne isharo par nacha sakte hai.
+            </p>
+            <p class="sd-txt text-center text-xl font-mono">
+            Dil lagane aayi thi, par dekhkar laga ki khelna behatar rahega.
+            </p>
+          </div>
+          <img
+            src="./images/roshmi.jpg"
+            class="w-24 rounded-full"
+            alt="Profile"
+          />
+          <div class="text-center">
+            <h2 class="fpm-txt text-2xl font-semibold  font-mono">
+              Pookie de Fontaine
+            </h2>
+            <p class="sd-txt capitalize">certified specialist in friendzone</p>
+          </div>
+        </div>
+         <!-- 4th part ends here -->
+      </div>
+      <!-- second hero section ends here -->
+    </header>
+    <!-- header section ends here -->
+    <script src="./src/javascript/script.js"></script>
+  </body>
+</html>
