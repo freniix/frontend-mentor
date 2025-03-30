@@ -1,0 +1,15 @@
+@import "tailwindcss"; /*2nd process */
+:root{
+    --first_primary_text: #1E40AF;
+    --second_primary_text: black;
+    --secondary_text: #374151;
+}
+.fpm-txt{
+    color: var(--first_primary_text);
+}
+.spm-txt{
+    color: var(--second_primary_text);
+}
+.sd-txt {
+    color: var(--secondary_text);
+}
